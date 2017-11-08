@@ -1,7 +1,9 @@
 var Logger = new Object();
 
+var colorError = "color:red";
+
 Logger.error = function(msg){
-	console.log("ERROR: "+msg);
+	console.log("ERROR: "+msg,colorError);
 };
 
 Logger.info = function(msg){
